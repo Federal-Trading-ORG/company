@@ -1,0 +1,20 @@
+# Fleet publish — secrets excluded
+.env
+.env.*
+!.env.example
+*CREDENTIALS*
+*VAULT*
+*_creds.env
+mysql_creds*
+*.pem
+*.key
+!*.pub
+*.sql.gz
+node_modules/
+__pycache__/
+*.log
+.DS_Store
+odoo_restore_bundle*
+backups/
+.github/workflows/
+
